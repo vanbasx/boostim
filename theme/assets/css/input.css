@@ -19,3 +19,7 @@
   font-display: swap;
   src: url(../fonts/Manrope-Bold.woff2) format("woff2");
 }
+
+.container {
+  @apply mx-auto px-4 max-w-[1302px];
+}
