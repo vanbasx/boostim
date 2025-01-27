@@ -2,6 +2,10 @@
 
 @theme {
   --font-sans: Manrope, sans-serif;
+
+  --color-primary: #010205;
+  --color-secondary: #878C91;
+  --color-accent: #99CF63;
 }
 
 @font-face {
@@ -21,5 +25,40 @@
 }
 
 .container {
-  @apply mx-auto px-4 max-w-[1302px];
+  @apply 
+  mx-auto 
+  px-4 
+  max-w-[1302px];
+}
+
+.menu {
+  @apply 
+  max-[1023px]:top-0 
+  max-[1023px]:left-0 
+  max-[1023px]:fixed 
+  max-[1023px]:bg-white 
+  max-[1023px]:h-full
+  max-[1023px]:w-[75vw]
+  max-[1023px]:flex
+  max-[1023px]:flex-col
+  max-[1023px]:justify-between
+  max-[1023px]:gap-8
+  max-[1023px]:px-4
+  max-[1023px]:py-10
+
+  max-[1023px]:-translate-x-full;
+}
+
+.header-menu-link {
+  @apply
+  text-sm 
+  font-medium 
+  hover:opacity-50 
+  active:opacity-50 
+  py-2 
+  transition-opacity 
+  duration-150 
+  ease-linear
+  max-[1023px]:text-2xl
+  max-[1023px]:tracking-tight;
 }

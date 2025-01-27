@@ -5,9 +5,10 @@ function boostim_enqueue_scripts() {
 
   wp_enqueue_style(
     'boostim-style',
-    get_parent_theme_file_uri('assets/css/style.css'),
+    get_parent_theme_file_uri( 'assets/css/style.css' ),
     array(),
-    wp_get_theme()->get( 'Version' ), 'all'
+    wp_get_theme()->get( 'Version' ),
+    'all'
   );
 
   wp_enqueue_script(
@@ -19,8 +20,8 @@ function boostim_enqueue_scripts() {
   );
 
   if (!is_user_logged_in()) {
-    wp_dequeue_style('wp-block-library');
+    wp_dequeue_style( 'wp-block-library' );
   }
 
 }
-add_action('wp_enqueue_scripts', 'boostim_enqueue_scripts');
+add_action( 'wp_enqueue_scripts', 'boostim_enqueue_scripts' );

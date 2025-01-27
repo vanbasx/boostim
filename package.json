@@ -4,6 +4,11 @@
     "tailwindcss": "^4.0.0"
   },
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./theme/assets/css/input.css -o ./theme/assets/css/style.css --watch"
+    "dev": "npx @tailwindcss/cli -i ./theme/assets/css/input.css -o ./theme/assets/css/style.css --watch",
+    "js": "npx esbuild ./theme/assets/js/main.js --outfile=./theme/assets/js/main.min.js --bundle --minify --watch"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "esbuild": "^0.24.2"
   }
 }
