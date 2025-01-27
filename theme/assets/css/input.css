@@ -6,6 +6,7 @@
   --color-primary: #010205;
   --color-secondary: #878C91;
   --color-accent: #99CF63;
+  --color-gray: #F0F0F0;
 }
 
 @font-face {
@@ -28,25 +29,27 @@
   @apply 
   mx-auto 
   px-4 
-  max-w-[1302px];
+  max-w-[1302px]
+  max-[1024px]:px-12
+  max-[768px]:px-4;
 }
 
 .menu {
   @apply 
-  max-[1023px]:top-0 
-  max-[1023px]:left-0 
-  max-[1023px]:fixed 
-  max-[1023px]:bg-white 
-  max-[1023px]:h-full
-  max-[1023px]:w-[75vw]
-  max-[1023px]:flex
-  max-[1023px]:flex-col
-  max-[1023px]:justify-between
-  max-[1023px]:gap-8
-  max-[1023px]:px-4
-  max-[1023px]:py-10
+  max-[1024px]:top-0 
+  max-[1024px]:left-0 
+  max-[1024px]:fixed 
+  max-[1024px]:bg-white 
+  max-[1024px]:h-full
+  max-[1024px]:w-[75vw]
+  max-[1024px]:flex
+  max-[1024px]:flex-col
+  max-[1024px]:justify-between
+  max-[1024px]:gap-8
+  max-[1024px]:px-4
+  max-[1024px]:py-10
 
-  max-[1023px]:-translate-x-full;
+  max-[1024px]:-translate-x-full;
 }
 
 .header-menu-link {
@@ -59,6 +62,6 @@
   transition-opacity 
   duration-150 
   ease-linear
-  max-[1023px]:text-2xl
-  max-[1023px]:tracking-tight;
+  max-[1024px]:text-2xl
+  max-[1024px]:tracking-tight;
 }

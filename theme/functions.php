@@ -1,5 +1,14 @@
 <?php
 
+// Theme support
+function boostim_theme_support() {
+
+  add_theme_support( 'title-tag' );
+  add_theme_support( 'post-thumbnails' );
+
+}
+add_action( 'after_setup_theme', 'boostim_theme_support' );
+
 // Styles and scripts import
 function boostim_enqueue_scripts() {
 
