@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="mt-16 max-[1024px]:mt-5">
+<section class="mt-16 max-[1024px]:mt-5 mb-36">
   <div class="flex max-[768px]:flex-col max-[1024px]:items-center justify-between gap-15 max-[1024px]:gap-6 max-[1240px]:gap-8 container">
 
     <div class="w-full hero">
@@ -32,6 +32,7 @@
     </div>
 
     <div data-da=".hero, 767, 3" class="max-[768px]:mb-10 pt-8 w-full">
+
       <div class="flex items-stretch gap-6 max-[1024px]:gap-2 max-[1240px]:gap-4 max-[430px]:gap-2 max-[570px]:gap-4 max-[768px]:gap-6 mb-6 max-[1024px]:mb-2 max-[1240px]:mb-4 max-[430px]:mb-2 max-[570px]:mb-4 max-[768px]:mb-6">
         <div class="relative bg-[#C7C7C7] rounded-[100%_20px_20px_20px] w-full">
           <div class="-top-8 right-8 absolute bg-primary p-7 rounded-full">
@@ -58,6 +59,47 @@
           Drive more traffic and product sales 
         </p>
         <img class="right-5 bottom-0 absolute w-[227px] max-[1024px]:w-[130px] max-[1240px]:w-[180px] max-[570px]:w-[130px] max-[768px]:w-[200px]" src="<?php echo get_parent_theme_file_uri( 'assets/img/chart.png' ) ?>" alt="">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="!mb-36">
+  <div class="container">
+    <div class="flex max-[1024px]:flex-col items-center max-[1024px]:items-start justify-between gap-10 max-[1024px]:gap-4 mb-18">
+      <h2 class="max-[1240px]:text-4xl max-[1240px]:basis-1/2 max-w-2xl title">
+        Provide the best service with out of the box ideas
+      </h2>
+      <p class="max-w-[550px] max-[1240px]:basis-1/2 subtitle">
+        We are a passionate team of digital marketing enthusiasts dedicated to helping businesses succeed in the digital world. With years of experience and a deep understanding of the ever-evolving online landscape, we stay at the forefront of industry trends and technologies.
+      </p>
+    </div>
+
+    <div class="flex items-stretch gap-6">
+      <div class="bg-primary p-10 rounded-[30px]">
+        <div class="text-[84px] text-white font-bold leading-none mb-4">
+          720<span class="text-accent">+</span>
+        </div>
+        <p class="text-secondary text-xl font-medium mb-32">
+          Project finish with superbly
+        </p>
+        <div class="flex items-center gap-1 text-[84px] text-white font-bold leading-none">
+          <div class="border-[#737373] border-2 bg-gray rounded-full overflow-hidden size-18"></div>
+          <div class="border-[#737373] border-2 bg-gray rounded-full overflow-hidden size-18"></div>
+          <div class="border-[#737373] border-2 bg-gray rounded-full overflow-hidden size-18"></div>
+          <div class="border-[#737373] border-2 bg-gray rounded-full overflow-hidden size-18"></div>
+          +
+        </div>
+      </div>
+      <div class="relative flex items-center justify-center bg-[#C7C7C7] mr-6 rounded-[30px] w-full">
+        <span class="text-5xl text-white font-bold uppercase tracking-wider px-10">
+          HOW WE WORK
+        </span>
+        <button class="-right-6 -bottom-6 absolute rounded-full transition-transform cursor-pointer overflow-hidden shrink-0 hover:scale-105 active:scale-105 duration-200 ease-linear">
+          <svg width="163" height="163" viewBox="0 0 163 163" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="6" width="151" height="151" rx="75.5" fill="#99EA48" stroke="#FAFAFA" stroke-width="12"/><path d="M98.9165 77.4811C99.797 77.9493 100.534 78.6483 101.047 79.5032C101.561 80.3581 101.832 81.3366 101.832 82.3339C101.832 83.3312 101.561 84.3097 101.047 85.1646C100.534 86.0195 99.797 86.7185 98.9165 87.1867L75.4278 99.9596C71.6457 102.017 67 99.3399 67 95.1086V69.5611C67 65.3261 71.6457 62.6512 75.4278 64.7064L98.9165 77.4811Z" fill="black"/></svg>
+        </button>
       </div>
     </div>
   </div>

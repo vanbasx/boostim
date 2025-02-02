@@ -32,6 +32,15 @@
     leading-[1.8] 
     font-medium;
   }
+
+  .title {
+    @apply
+    text-primary
+    leading-[1.3]
+    font-bold
+    text-5xl
+    tracking-tight;
+  }
 }
 
 .container {
