@@ -25,6 +25,15 @@
   src: url(../fonts/Manrope-Bold.woff2) format("woff2");
 }
 
+@layer components {
+  .subtitle {
+    @apply
+    text-secondary 
+    leading-[1.8] 
+    font-medium;
+  }
+}
+
 .container {
   @apply 
   mx-auto 

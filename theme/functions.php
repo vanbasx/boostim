@@ -28,7 +28,7 @@ function boostim_enqueue_scripts() {
     true
   );
 
-  if (!is_user_logged_in()) {
+  if ( ! is_user_logged_in() ) {
     wp_dequeue_style( 'wp-block-library' );
   }
 

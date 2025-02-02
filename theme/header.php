@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="h-full">
 <head>
-  <meta charset="<?php bloginfo('charset'); ?>">
+  <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php wp_head(); ?>
 </head>
 
-<body <?php body_class('h-full overflow-x-hidden'); ?>>
+<body <?php body_class( 'h-full overflow-x-hidden' ); ?>>
   <div
-    style="background: url('<?php echo get_parent_theme_file_uri('assets/img/background.png'); ?>');" 
+    style="background: url('<?php echo get_parent_theme_file_uri( 'assets/img/background.png' ); ?>');" 
     class="flex flex-col bg-repeat min-h-full"
   >
     <header class="text-primary py-8">
