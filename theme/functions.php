@@ -42,4 +42,4 @@ function boostim_enqueue_fonts() {
   echo '<link rel="preload" href="' . get_parent_theme_file_uri( 'assets/fonts/Manrope-Medium.woff2' ) . '" as="font" type="font/woff2" crossorigin>';
 
 }
-add_action('wp_head', 'boostim_enqueue_fonts', 5);
+add_action( 'wp_head', 'boostim_enqueue_fonts', 5 );
