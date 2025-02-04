@@ -8,7 +8,6 @@
     "js": "npx esbuild ./assets/js/main.js --outfile=.assets/js/main.min.js --bundle --minify --watch"
   },
   "devDependencies": {
-    "browser-sync": "^3.0.3",
     "esbuild": "^0.24.2"
   }
 }
