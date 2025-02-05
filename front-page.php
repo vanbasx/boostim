@@ -15,7 +15,7 @@
           <span class="font-bold text-white leading-[1.4]">Schedule Call</span>
           <svg class="max-[1024px]:size-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
-        <a href="" class="font-bold text-primary max-[1024px]:text-sm underline">
+        <a href="/case-study" class="font-bold text-primary max-[1024px]:text-sm underline">
           View Case Study
         </a>
       </div>
@@ -105,4 +105,25 @@
   </div>
 </section>
 
-<?php get_footer(); ?> 
+<section class="mx-auto !mb-36 px-4 max-w-[1408px]">
+  <div class="bg-primary px-16 py-20 rounded-[30px]">
+    <h3 class="mb-16 text-center text-white title">
+      Real-world examples of how we have helped companies achieve their marketing objectives.
+    </h3>
+    <div class="gap-9 grid grid-cols-2">
+      <?php
+      $cases = new WP_Query(array(
+        'post_type'      => 'boostim_case',
+        'posts_per_page' => -1
+      ));
+
+      while ( $cases->have_posts() ) {
+        $cases->the_post();
+        get_template_part('partials/case');
+      } 
+      ?>
+    </div>
+  </div>
+</section>
+
+<?php get_footer(); ?>

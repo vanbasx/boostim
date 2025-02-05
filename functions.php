@@ -57,8 +57,8 @@ function boostim_custom_post_type() {
   register_post_type('boostim_case',
 		array(
 			'labels'      => array(
-				'name'            => __('Case study', 'boostim'),
-				'singular_name'   => __('Case', 'boostim'),
+				'name'            => __( 'Case study', 'boostim' ),
+				'singular_name'   => __( 'Case', 'boostim' ),
 			),
 				'public'          => true,
 				'has_archive'     => true,
@@ -76,4 +76,4 @@ function boostim_custom_post_type() {
 	);
 
 }
-add_action('init', 'boostim_custom_post_type');
+add_action( 'init', 'boostim_custom_post_type' );
