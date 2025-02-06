@@ -105,24 +105,28 @@
   </div>
 </section>
 
-<section class="mx-auto !mb-36 px-4 max-w-[1408px]">
-  <div class="bg-primary px-16 py-20 rounded-[30px]">
-    <h3 class="mb-16 text-center text-white title">
+<section class="mx-auto !mb-36 px-4 max-w-[1408px] overflow-hidden">
+  <div class="bg-primary px-16 max-[1024px]:px-8 max-[1240px]:px-13 max-[430px]:px-4 max-[768px]:px-6 py-20 max-[1240px]:py-15 rounded-[30px] overflow-hidden">
+    <h3 class="mb-16 text-center text-white max-[1240px]:text-4xl max-[430px]:text-[28px] max-[430px]:text-balance max-[570px]:text-left max-[768px]:text-3xl title">
       Real-world examples of how we have helped companies achieve their marketing objectives.
     </h3>
-    <div class="gap-9 grid grid-cols-2">
-      <?php
-      $cases = new WP_Query(array(
-        'post_type'      => 'boostim_case',
-        'posts_per_page' => -1
-      ));
 
-      while ( $cases->have_posts() ) {
-        $cases->the_post();
-        get_template_part('partials/case');
-      } 
-      ?>
+    <div class="swiper-cases">
+      <div class="swiper-wrapper">
+        <?php
+        $cases = new WP_Query(array(
+          'post_type'      => 'boostim_case',
+          'posts_per_page' => -1
+        ));
+
+        while ( $cases->have_posts() ) {
+          $cases->the_post();
+          get_template_part('partials/case');
+        } 
+        ?>
+      </div>
     </div>
+
   </div>
 </section>
 

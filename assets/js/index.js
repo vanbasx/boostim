@@ -1,3 +1,25 @@
+const swiperCases = new Swiper('.swiper-cases', {
+  loop: false,
+  spaceBetween: 12,
+  slidesPerView: 1,
+  speed: 600,
+  breakpoints: {
+    1240: {
+      spaceBetween: 32,
+      slidesPerView: 2.4,
+    },
+    1024: {
+        slidesPerView: 2,
+        spaceBetween: 24
+    },
+    768: {
+        slidesPerView: 1.5,
+        spaceBetween: 20
+    }
+}
+});
+
+
 // HTML data-da="where(uniq class name),when(breakpoint),position(digi)"
 // e.x. data-da=".item,992,2"
 
