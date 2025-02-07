@@ -1,7 +1,7 @@
 <div class="swiper-slide">
   <article
     id="post-<?php the_ID(); ?>"
-    <?php post_class( 'relative overflow-hidden aspect-square bg-[#C7C7C7] rounded-[30px] p-8 border-10 max-[768px]:border-6 border-[#4D5052] flex flex-col justify-between' ); ?>
+    <?php post_class( 'relative overflow-hidden aspect-square bg-[#C7C7C7] rounded-[30px] p-8 max-[570px]:p-5 border-10 max-[768px]:border-8 border-[#4D5052] flex flex-col justify-between' ); ?>
   >
     <img 
       src="<?php echo esc_url( get_the_post_thumbnail_url() ); ?>" 
@@ -13,7 +13,7 @@
     </p>
     <a 
       href="<?php echo esc_url( get_permalink() ); ?>"
-      class="before:top-0 before:left-0 z-2 before:absolute before:w-full before:h-full font-bold text-2xl text-white"
+      class="before:top-0 before:left-0 z-2 before:absolute before:w-full before:h-full font-bold text-2xl text-white max-[570px]:text-xl"
     >
       <?php echo esc_html( get_the_title() . ' - ' . get_the_excerpt() ); ?>
     </a>

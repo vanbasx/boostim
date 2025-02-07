@@ -66,7 +66,7 @@
   </div>
 </section>
 
-<section class="!mb-36">
+<section class="mb-24 max-[768px]:mb-4">
   <div class="container">
     <div class="flex max-[1024px]:flex-col justify-between items-center max-[1024px]:items-start gap-10 max-[1024px]:gap-4 max-[570px]:gap-6 max-[768px]:gap-7 mb-18 max-[1024px]:mb-12">
       <h2 class="max-[1024px]:text-pretty max-[1240px]:text-4xl max-[1240px]:text-balance max-[768px]:text-5xl max-[570px]:text-4xl max-[570px]:leading-[1.1] max-[570px]:tracking-tighter max-[1240px]:basis-1/2 max-w-2xl max-[1024px]:max-w-full title">
@@ -106,8 +106,8 @@
 </section>
 
 <section class="mx-auto !mb-36 px-4 max-w-[1408px] overflow-hidden">
-  <div class="bg-primary px-16 max-[1024px]:px-8 max-[1240px]:px-13 max-[430px]:px-4 max-[768px]:px-6 py-20 max-[1240px]:py-15 rounded-[30px] overflow-hidden">
-    <h3 class="mb-16 text-center text-white max-[1240px]:text-4xl max-[430px]:text-[28px] max-[430px]:text-balance max-[570px]:text-left max-[768px]:text-3xl title">
+  <div class="bg-primary px-16 max-[1024px]:px-8 max-[1240px]:px-13 max-[430px]:px-4 max-[768px]:px-6 py-20 max-[1240px]:py-15 max-[570px]:py-10 rounded-[30px] overflow-hidden">
+    <h3 class="mb-16 max-[1024px]:mb-12 max-[768px]:mb-7 text-center text-white max-[1240px]:text-4xl max-[430px]:text-[28px] max-[430px]:text-balance max-[570px]:text-left max-[768px]:text-3xl title">
       Real-world examples of how we have helped companies achieve their marketing objectives.
     </h3>
 
@@ -130,4 +130,4 @@
   </div>
 </section>
 
-<?php get_footer(); ?>
+<?php get_footer(); ?> 
