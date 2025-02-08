@@ -128,10 +128,16 @@
   </div>
 </section>
 
-<section class="">
-  <div class="container">
-    
+<div class="mx-auto px-4 max-w-[1408px]">
+  <div class="flex max-[570px]:flex-col justify-between items-center gap-15 max-[570px]:gap-9 bg-primary px-16 max-[430px]:px-4 max-[768px]:px-10 py-20 max-[570px]:py-14 rounded-[30px]">
+    <h6 class="font-bold text-[80px] text-white max-[1240px]:text-7xl max-[1024px]:text-6xl max-[570px]:text-center max-[768px]:text-5xl max-[570px]:text-4xl">
+      Ready to work with us?
+    </h6>
+    <a href="" class="flex items-center gap-10 max-[1024px]:gap-2 bg-white px-8 max-[1024px]:px-5 py-4 max-[1024px]:py-3 rounded-full max-[1024px]:text-sm shrink-0">
+      <span class="font-bold text-primary leading-[1.4]">Get Started</span>
+      <svg class="max-[1024px]:size-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" class="stroke-primary" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5L19 12L12 19" class="stroke-primary" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
   </div>
-</section>
+</div>
 
 <?php get_footer(); ?> 

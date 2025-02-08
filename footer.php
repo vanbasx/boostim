@@ -1,5 +1,5 @@
     </main>
-    <footer class="py-10">
+    <footer class="mt-10 py-10">
       <div class="flex max-[1024px]:flex-col justify-between items-start gap-20 container">
         <div>
           <div class="flex mb-7">
