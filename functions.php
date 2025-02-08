@@ -87,5 +87,26 @@ function boostim_custom_post_type() {
 		)
 	);
 
+  register_post_type('boostim_resource',
+		array(
+			'labels'      => array(
+				'name'            => __( 'Resources', 'boostim' ),
+				'singular_name'   => __( 'Resource', 'boostim' ),
+			),
+				'public'          => true,
+				'has_archive'     => false,
+        'rewrite'         => array( 'slug' => 'resources' ),
+        'menu_icon'       => 'dashicons-welcome-write-blog',
+        'menu_position'   => 5,
+        'supports'        => array(
+          'title',
+          'editor',
+          'thumbnail',
+          'excerpt'
+        ),
+        'show_in_rest'    => true
+		)
+	);
+
 }
 add_action( 'init', 'boostim_custom_post_type' );
