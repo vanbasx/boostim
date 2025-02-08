@@ -1,6 +1,18 @@
 <?php
 
-// Theme support
+// THEME OPTIMIZATION
+remove_action( 'wp_head', 'start_post_rel_link', 10 );
+remove_action( 'wp_head', 'wp_generator' );
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
+remove_action( 'wp_head', 'feed_links_extra' );
+remove_action( 'wp_head', 'feed_links' );
+remove_action( 'wp_head', 'rsd_link' );
+remove_action( 'wp_head', 'wlwmanifest_link' );
+remove_action( 'wp_head', 'index_rel_link' );
+
+
+// THEME SUPPORT
 function boostim_theme_support() {
 
   add_theme_support( 'title-tag' );
@@ -61,7 +73,7 @@ function boostim_custom_post_type() {
 				'singular_name'   => __( 'Case', 'boostim' ),
 			),
 				'public'          => true,
-				'has_archive'     => true,
+				'has_archive'     => false,
         'rewrite'         => array( 'slug' => 'case-study' ),
         'menu_icon'       => 'dashicons-portfolio',
         'menu_position'   => 5,
