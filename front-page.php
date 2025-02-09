@@ -105,7 +105,7 @@
   </div>
 </section>
 
-<section class="mx-auto mb-31 px-4 max-w-[1408px] overflow-hidden">
+<section class="mx-auto mb-31 max-[570px]:mb-15 px-4 max-w-[1408px]">
   <div class="bg-primary px-16 max-[1024px]:px-8 max-[1240px]:px-13 max-[430px]:px-4 max-[768px]:px-6 py-20 max-[1240px]:py-15 max-[570px]:py-10 rounded-[30px] overflow-hidden">
     <h3 class="mb-16 max-[1024px]:mb-12 max-[768px]:mb-7 text-center text-white max-[1240px]:text-4xl max-[430px]:text-[28px] max-[430px]:text-balance max-[570px]:text-left max-[768px]:text-3xl title">
       Real-world examples of how we have helped companies achieve their marketing objectives.
@@ -128,7 +128,102 @@
   </div>
 </section>
 
-<section class="mb-32">
+<section class="mx-auto mb-24 max-[570px]:mb-15 px-4 max-w-[1408px]">
+  <div class="flex max-[1024px]:flex-col justify-between items-stretch gap-16 max-[768px]:gap-12 bg-white max-[1240px]:px-10 max-[570px]:px-4 max-[570px]:py-8 p-16 max-[768px]:p-10 rounded-[30px]">
+    <div class="basis-1/2">
+      <div class="top-15 sticky max-w-[530px]">
+        <h4 class="mb-5 max-[1240px]:text-4xl max-[570px]:text-[32px] title">
+          Digital Marketing FAQs
+        </h4>
+        <p class="mb-8 max-[570px]:text-pretty subtitle">
+          As a leading digital marketing agency, we are dedicated to providing comprehensive educational resources and answering frequently asked questions to help our clients.
+        </p>
+        <div class="flex items-center gap-12 max-[768px]:gap-8">
+          <a ontouchstart href="/contact" class="hover:bg-primary active:bg-primary px-8 max-[768px]:px-6 py-4 max-[768px]:py-3 border rounded-full font-bold text-base text-center hover:text-white active:text-white leading-[140%] transition-colors duration-200 easy-out">
+            More Questions
+          </a>
+          <a href="/contact" class="font-bold text-primary max-[1024px]:text-sm underline">
+            Contanct Us
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="basis-1/2">
+
+      <div data-accordion class="border-primary border-t accordion">
+        <button data-accordion-button class="flex justify-between items-center px-6 max-[768px]:px-0 py-7 max-[768px]:py-5 w-full cursor-pointer">
+          <p class="pr-24 max-[570px]:pr-10 font-bold text-2xl text-left text-primary max-[570px]:text-xl leading-[1.5] tracking-tight">
+            Why is digital marketing important for my business?
+          </p>
+          <div class="relative size-6">
+            <div class="group-[.accordion]:rotate-none top-1/2 left-1/2 absolute bg-primary rounded-full w-4 h-0.5 transition-[rotate] -translate-x-1/2 -translate-y-1/2 duration-200 ease-in-out rotate-90"></div>
+            <div class="top-1/2 left-1/2 absolute bg-primary rounded-full w-4 h-0.5 -translate-x-1/2 -translate-y-1/2"></div>
+          </div>
+        </button>
+        <div data-accordion-content class="px-6 max-[768px]:px-0 max-h-0 transition-all duration-300 overflow-hidden ease-in-out">
+          <p class="pb-7 text-secondary max-[570px]:text-sm leading-[1.8]">
+            Digital marketing allows businesses to reach and engage with a wider audience, generate leads, drive website traffic, and increase brand visibility. It provides measurable results, allows for targeted marketing efforts, and enables businesses to adapt and optimize their strategies based on data and insights.
+          </p>
+        </div>
+      </div>
+
+      <div data-accordion class="border-primary border-t accordion">
+        <button data-accordion-button class="flex justify-between items-center px-6 max-[768px]:px-0 py-7 max-[768px]:py-5 w-full cursor-pointer">
+          <p class="pr-24 max-[570px]:pr-10 font-bold text-2xl text-left text-primary max-[570px]:text-xl leading-[1.5] tracking-tight">
+            How can digital marketing help improve my website's visibility?
+          </p>
+          <div class="relative size-6">
+            <div class="group-[.accordion]:rotate-none top-1/2 left-1/2 absolute bg-primary rounded-full w-4 h-0.5 transition-[rotate] -translate-x-1/2 -translate-y-1/2 duration-200 ease-in-out rotate-90"></div>
+            <div class="top-1/2 left-1/2 absolute bg-primary rounded-full w-4 h-0.5 -translate-x-1/2 -translate-y-1/2"></div>
+          </div>
+        </button>
+        <div data-accordion-content class="px-6 max-[768px]:px-0 max-h-0 transition-all duration-300 overflow-hidden ease-in-out">
+          <p class="pb-7 text-secondary max-[570px]:text-sm leading-[1.8]">
+            Digital marketing allows businesses to reach and engage with a wider audience, generate leads, drive website traffic, and increase brand visibility. It provides measurable results, allows for targeted marketing efforts, and enables businesses to adapt and optimize their strategies based on data and insights.
+          </p>
+        </div>
+      </div>
+
+      <div data-accordion class="border-primary border-t accordion">
+        <button data-accordion-button class="flex justify-between items-center px-6 max-[768px]:px-0 py-7 max-[768px]:py-5 w-full cursor-pointer">
+          <p class="pr-24 max-[570px]:pr-10 font-bold text-2xl text-left text-primary max-[570px]:text-xl leading-[1.5] tracking-tight">
+            How long does it take to see results from digital marketing efforts?
+          </p>
+          <div class="relative size-6">
+            <div class="group-[.accordion]:rotate-none top-1/2 left-1/2 absolute bg-primary rounded-full w-4 h-0.5 transition-[rotate] -translate-x-1/2 -translate-y-1/2 duration-200 ease-in-out rotate-90"></div>
+            <div class="top-1/2 left-1/2 absolute bg-primary rounded-full w-4 h-0.5 -translate-x-1/2 -translate-y-1/2"></div>
+          </div>
+        </button>
+        <div data-accordion-content class="px-6 max-[768px]:px-0 max-h-0 transition-all duration-300 overflow-hidden ease-in-out">
+          <p class="pb-7 text-secondary max-[570px]:text-sm leading-[1.8]">
+            Digital marketing allows businesses to reach and engage with a wider audience, generate leads, drive website traffic, and increase brand visibility. It provides measurable results, allows for targeted marketing efforts, and enables businesses to adapt and optimize their strategies based on data and insights.
+          </p>
+        </div>
+      </div>
+
+      <div data-accordion class="border-primary border-t accordion">
+        <button data-accordion-button class="flex justify-between items-center px-6 max-[768px]:px-0 py-7 max-[768px]:py-5 w-full cursor-pointer">
+          <p class="pr-24 max-[570px]:pr-10 font-bold text-2xl text-left text-primary max-[570px]:text-xl leading-[1.5] tracking-tight">
+            How do you measure the success of digital marketing campaigns?
+          </p>
+          <div class="relative size-6">
+            <div class="group-[.accordion]:rotate-none top-1/2 left-1/2 absolute bg-primary rounded-full w-4 h-0.5 transition-[rotate] -translate-x-1/2 -translate-y-1/2 duration-200 ease-in-out rotate-90"></div>
+            <div class="top-1/2 left-1/2 absolute bg-primary rounded-full w-4 h-0.5 -translate-x-1/2 -translate-y-1/2"></div>
+          </div>
+        </button>
+        <div data-accordion-content class="px-6 max-[768px]:px-0 max-h-0 transition-all duration-300 overflow-hidden ease-in-out">
+          <p class="pb-7 text-secondary max-[570px]:text-sm leading-[1.8]">
+            Digital marketing allows businesses to reach and engage with a wider audience, generate leads, drive website traffic, and increase brand visibility. It provides measurable results, allows for targeted marketing efforts, and enables businesses to adapt and optimize their strategies based on data and insights.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="mb-32 max-[570px]:mb-15">
   <div class="container">
     <div class="flex max-[1024px]:flex-col justify-between items-center max-[1024px]:items-start gap-20 max-[1024px]:gap-7 mb-18 max-[570px]:mb-12">
       <h5 class="max-[1240px]:text-4xl max-[570px]:text-[32px] title basis-1/2">
@@ -138,12 +233,12 @@
         <p class="mb-10 max-[570px]:text-pretty subtitle">
           We are the top digital marketing agency for  branding corp. We offer a full range of services to help clients improve their search engine rankings and drive more traffic to their websites.
         </p>
-        <a ontouchstart href="/contact" class="hover:bg-primary active:bg-primary px-8 py-3 border rounded-full font-bold text-base text-center hover:text-white active:text-white leading-[140%] transition-colors duration-200 easy-out">
+        <a ontouchstart href="/contact" class="hover:bg-primary active:bg-primary px-8 max-[768px]:px-6 py-4 max-[768px]:py-3 border rounded-full font-bold text-base text-center hover:text-white active:text-white leading-[140%] transition-colors duration-200 easy-out">
           Book a call
         </a>
       </div>
     </div>
-    <div class="gap-6 grid grid-cols-3 max-[1024px]:grid-cols-2 max-[768px]:grid-cols-1">
+    <div class="gap-6 max-[570px]:gap-4 grid grid-cols-3 max-[1024px]:grid-cols-2 max-[768px]:grid-cols-1">
       <?php
       $resources = new WP_Query(array(
         'post_type'      => 'boostim_resource',

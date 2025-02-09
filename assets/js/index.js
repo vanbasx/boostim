@@ -1,3 +1,37 @@
+// DOUBLE-CLICK-ZOOM-DISABLE
+document.addEventListener('dblclick', function(event) {
+  event.preventDefault();
+}, { passive: false });
+
+// ACCORDION
+function accordion() {
+  const accordions = document.querySelectorAll('[data-accordion]');
+
+  accordions.forEach((accordion) => {
+    const button = accordion.querySelector('[data-accordion-button]');
+    const content = accordion.querySelector('[data-accordion-content]');
+
+    button.addEventListener('click', () => {
+      accordions.forEach((otherAccordion) => {
+        if (otherAccordion !== accordion) {
+          const otherContent = otherAccordion.querySelector('[data-accordion-content]');
+          otherAccordion.classList.remove('group');
+          otherContent.style.maxHeight = '0';
+        }
+      });
+
+      accordion.classList.toggle('group');
+      if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+        content.style.maxHeight = '0';
+      } else {
+        content.style.maxHeight = content.scrollHeight + 'px';
+      }
+    });
+  });
+}
+accordion();
+
+// SWIPER-CASES
 const swiperCases = new Swiper('.swiper-cases', {
   loop: false,
   spaceBetween: 12,
