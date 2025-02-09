@@ -30,10 +30,10 @@
           </nav>
         </div>
         <div data-da=".menu, 1023, 2" class="flex items-center gap-2">
-          <a ontouchstart href="/" class="hover:bg-primary active:bg-primary px-8 py-3 border rounded-full text-base hover:text-white active:text-white leading-[140%] transition-colors duration-200 easy-out">
+          <a ontouchstart href="/contact" class="hover:bg-primary active:bg-primary px-8 py-3 border rounded-full font-bold text-base hover:text-white active:text-white leading-[140%] transition-colors duration-200 easy-out">
             Get started
           </a>
-          <a ontouchstart href="/" class="bg-primary hover:opacity-50 active:opacity-50 p-3 rounded-full transition-opacity duration-200 ease-out">
+          <a ontouchstart href="/contact" class="bg-primary hover:opacity-50 active:opacity-50 p-3 rounded-full transition-opacity duration-200 ease-out">
             <img src="<?php echo get_parent_theme_file_uri( 'assets/img/icons/ring.svg' ) ?>" alt="">
           </a>
         </div>

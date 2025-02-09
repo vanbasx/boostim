@@ -11,11 +11,11 @@
         An award-winning SEO agency with disciplines in digital marketing, design, and website development. Focused on understanding you.
       </p>
       <div class="flex items-center gap-12 max-[1024px]:gap-8 mb-22 max-[1240px]:mb-12 max-[768px]:mb-10">
-        <a href="" class="flex items-center gap-10 max-[1024px]:gap-2 bg-primary px-8 max-[1024px]:px-5 py-4 max-[1024px]:py-3 rounded-full max-[1024px]:text-sm">
+        <a href="/contact" class="flex items-center gap-10 max-[1024px]:gap-2 bg-primary px-8 max-[1024px]:px-5 py-4 max-[1024px]:py-3 rounded-full max-[1024px]:text-sm">
           <span class="font-bold text-white leading-[1.4]">Schedule Call</span>
           <svg class="max-[1024px]:size-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
-        <a href="/case-study" class="font-bold text-primary max-[1024px]:text-sm underline">
+        <a href="#case-study" class="font-bold text-primary max-[1024px]:text-sm underline">
           View Case Study
         </a>
       </div>
@@ -69,10 +69,10 @@
 <section class="mb-24 max-[768px]:mb-4">
   <div class="container">
     <div class="flex max-[1024px]:flex-col justify-between items-center max-[1024px]:items-start gap-10 max-[1024px]:gap-4 max-[570px]:gap-6 max-[768px]:gap-7 mb-18 max-[1024px]:mb-12">
-      <h2 class="max-[1024px]:text-pretty max-[1240px]:text-4xl max-[1240px]:text-balance max-[768px]:text-5xl max-[570px]:text-4xl max-[570px]:leading-[1.1] max-[570px]:tracking-tighter max-[1240px]:basis-1/2 max-w-2xl max-[1024px]:max-w-full title">
+      <h2 class="max-w-2xl max-[1024px]:max-w-full max-[1024px]:text-pretty max-[1240px]:text-4xl max-[1240px]:text-balance max-[570px]:text-[32px] max-[1240px]:basis-1/2 title">
         Provide the best service with out of the box ideas
       </h2>
-      <p class="max-w-[550px] max-[1240px]:basis-1/2 max-[1024px]:max-w-full subtitle">
+      <p class="max-w-[550px] max-[1024px]:max-w-full max-[1240px]:basis-1/2 subtitle">
         We are a passionate team of digital marketing enthusiasts dedicated to helping businesses succeed in the digital world. With years of experience and a deep understanding of the ever-evolving online landscape, we stay at the forefront of industry trends and technologies.
       </p>
     </div>
@@ -86,14 +86,14 @@
           Project finish with superbly
         </p>
         <div class="flex items-center gap-1 font-bold text-[84px] text-white max-[1240px]:text-6xl max-[1024px]:text-5xl max-[570px]:text-6xl max-[768px]:text-[84px] leading-none">
-          <div class="border-[#737373] border-2 bg-gray rounded-full overflow-hidden size-18 max-[1240px]:size-15 max-[1024px]:size-13 max-[768px]:size-18 max-[570px]:size-15 max-[570px]:z-1"></div>
-          <div class="border-[#737373] border-2 bg-gray rounded-full overflow-hidden size-18 max-[1240px]:size-15 max-[1024px]:size-13 max-[768px]:size-18 max-[570px]:size-15 max-[570px]:z-2 max-[570px]:-ml-4"></div>
-          <div class="border-[#737373] border-2 bg-gray rounded-full overflow-hidden size-18 max-[1240px]:size-15 max-[1024px]:size-13 max-[768px]:size-18 max-[570px]:size-15 max-[570px]:z-3 max-[570px]:-ml-4"></div>
-          <div class="border-[#737373] border-2 bg-gray rounded-full overflow-hidden size-18 max-[1240px]:size-15 max-[1024px]:size-13 max-[768px]:size-18 max-[570px]:size-15 max-[570px]:z-4 max-[570px]:-ml-4"></div>
+          <div class="max-[570px]:z-1 border-[#737373] border-2 bg-gray rounded-full overflow-hidden size-18 max-[1240px]:size-15 max-[1024px]:size-13 max-[768px]:size-18 max-[570px]:size-15"></div>
+          <div class="max-[570px]:z-2 border-[#737373] border-2 bg-gray max-[570px]:-ml-4 rounded-full overflow-hidden size-18 max-[1240px]:size-15 max-[1024px]:size-13 max-[768px]:size-18 max-[570px]:size-15"></div>
+          <div class="max-[570px]:z-3 border-[#737373] border-2 bg-gray max-[570px]:-ml-4 rounded-full overflow-hidden size-18 max-[1240px]:size-15 max-[1024px]:size-13 max-[768px]:size-18 max-[570px]:size-15"></div>
+          <div class="max-[570px]:z-4 border-[#737373] border-2 bg-gray max-[570px]:-ml-4 rounded-full overflow-hidden size-18 max-[1240px]:size-15 max-[1024px]:size-13 max-[768px]:size-18 max-[570px]:size-15"></div>
           +
         </div>
       </div>
-      <div class="relative flex justify-center items-center bg-[#C7C7C7] mr-6 max-[1024px]:mr-0 rounded-[30px] max-[768px]:aspect-square w-full">
+      <div class="relative flex justify-center items-center bg-[#C7C7C7] mr-6 max-[1024px]:mr-0 rounded-[30px] w-full max-[768px]:aspect-square">
         <span class="max-[1024px]:hidden px-10 font-bold text-5xl text-white uppercase tracking-wider">
           HOW WE WORK
         </span>
@@ -128,12 +128,43 @@
   </div>
 </section>
 
+<section class="mb-32">
+  <div class="container">
+    <div class="flex max-[1024px]:flex-col justify-between items-center max-[1024px]:items-start gap-20 max-[1024px]:gap-7 mb-18 max-[570px]:mb-12">
+      <h5 class="max-[1240px]:text-4xl max-[570px]:text-[32px] title basis-1/2">
+        Digital Marketing & SEO Services That Grow Traffic & Increase Revenue
+      </h5>
+      <div class="max-w-[500px] max-[1024px]:max-w-full max-[1240px]:max-w-[450px]">
+        <p class="mb-10 max-[570px]:text-pretty subtitle">
+          We are the top digital marketing agency for  branding corp. We offer a full range of services to help clients improve their search engine rankings and drive more traffic to their websites.
+        </p>
+        <a ontouchstart href="/contact" class="hover:bg-primary active:bg-primary px-8 py-3 border rounded-full font-bold text-base text-center hover:text-white active:text-white leading-[140%] transition-colors duration-200 easy-out">
+          Book a call
+        </a>
+      </div>
+    </div>
+    <div class="gap-6 grid grid-cols-3 max-[1024px]:grid-cols-2 max-[768px]:grid-cols-1">
+      <?php
+      $resources = new WP_Query(array(
+        'post_type'      => 'boostim_resource',
+        'posts_per_page' => 3
+      ));
+
+      while ( $resources->have_posts() ) {
+        $resources->the_post();
+        get_template_part('partials/resource');
+      } 
+      ?>
+    </div>
+  </div>
+</section>
+
 <div class="mx-auto px-4 max-w-[1408px]">
   <div class="flex max-[570px]:flex-col justify-between items-center gap-15 max-[570px]:gap-9 bg-primary px-16 max-[430px]:px-4 max-[768px]:px-10 py-20 max-[570px]:py-14 rounded-[30px]">
     <h6 class="font-bold text-[80px] text-white max-[1240px]:text-7xl max-[1024px]:text-6xl max-[570px]:text-center max-[768px]:text-5xl max-[570px]:text-4xl">
       Ready to work with us?
     </h6>
-    <a href="" class="flex items-center gap-10 max-[1024px]:gap-2 bg-white px-8 max-[1024px]:px-5 py-4 max-[1024px]:py-3 rounded-full max-[1024px]:text-sm shrink-0">
+    <a href="/contact" class="flex items-center gap-10 max-[1024px]:gap-2 bg-white px-8 max-[1024px]:px-5 py-4 max-[1024px]:py-3 rounded-full max-[1024px]:text-sm shrink-0">
       <span class="font-bold text-primary leading-[1.4]">Get Started</span>
       <svg class="max-[1024px]:size-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" class="stroke-primary" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5L19 12L12 19" class="stroke-primary" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </a>
