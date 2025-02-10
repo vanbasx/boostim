@@ -43,14 +43,36 @@ const swiperCases = new Swiper('.swiper-cases', {
       slidesPerView: 2.4,
     },
     1024: {
-        slidesPerView: 2,
-        spaceBetween: 24
+      slidesPerView: 2,
+      spaceBetween: 24
     },
     768: {
-        slidesPerView: 1.5,
-        spaceBetween: 20
+      slidesPerView: 1.5,
+      spaceBetween: 20
     }
 }
+});
+
+// SWIPER-TESTIMONIALS
+const swiperTestimonials = new Swiper('.swiper-testimonials', {
+  loop: false,
+  spaceBetween: 12,
+  slidesPerView: 1,
+  speed: 600,
+  autoHeight: true,
+  pagination: {
+    el: '.swiper-pagination-testimonials',
+    type: 'fraction',
+    renderFraction: function (currentClass, totalClass) {
+      return `<span class="${currentClass} underline text-primary"></span><span class="text-secondary">/</span><span class="${totalClass} text-secondary"></span>`;
+    },
+    formatFractionCurrent: number => number.toString().padStart(2, '0'),
+    formatFractionTotal: number => number.toString().padStart(2, '0')
+  },
+  navigation: {
+    nextEl: ".swiper-button-next-testimonials",
+    prevEl: ".swiper-button-prev-testimonials",
+  },
 });
 
 
