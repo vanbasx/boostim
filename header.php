@@ -8,7 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 
-<body <?php body_class( 'h-full overflow-x-hidden' ); ?>>
+<body <?php body_class( 'h-full overflow-x-hidden group-[.menu-active]:overflow-hidden group-[.menu-active]:touch-none' ); ?>>
   <div
     style="background: url('<?php echo get_parent_theme_file_uri( 'assets/img/background.png' ); ?>');" 
     class="flex flex-col bg-repeat min-h-full"
@@ -28,20 +28,20 @@
               <li><a ontouchstart href="/#resources" class="header-menu-link">Resources</a></li>
             </ul>
           </nav>
+          <div id="header-menu-overlay" class="group-[.menu-active]:visible group-[.menu-active]:z-30 invisible top-0 left-0 z-[-1] fixed bg-primary opacity-0 group-[.menu-active]:opacity-50 w-full h-[100vh] transition-all duration-300"></div>
         </div>
         <div data-da=".menu, 1023, 2" class="flex items-center gap-2">
-          <a ontouchstart href="/contact" class="hover:bg-primary active:bg-primary px-8 py-3 border rounded-full font-bold text-base hover:text-white active:text-white leading-[140%] transition-colors duration-200 easy-out">
+          <a ontouchstart href="/contact" class="hover:bg-primary active:bg-primary px-8 py-3 border rounded-full font-bold hover:text-white active:text-white text-base leading-[140%] transition-colors duration-200 easy-out">
             Get started
           </a>
           <a ontouchstart href="/contact" class="bg-primary hover:opacity-50 active:opacity-50 p-3 rounded-full transition-opacity duration-200 ease-out">
             <img src="<?php echo get_parent_theme_file_uri( 'assets/img/icons/ring.svg' ) ?>" alt="">
           </a>
         </div>
-        <button class="relative border-secondary min-[1024px]:hidden border rounded-full w-12 h-12 shrink-0">
-          <span class="top-4.5 left-1/2 absolute content-[''] bg-primary rounded-full w-6 h-0.5 -translate-x-1/2"></span>
-          <span class="bottom-4.5 left-1/2 absolute content-[''] bg-primary rounded-full w-6 h-0.5 -translate-x-1/2"></span>
+        <button id="burger-btn" class="min-[1024px]:hidden z-50 relative border border-secondary rounded-full w-12 h-12 shrink-0">
+          <span class="group-[.menu-active]:top-5.5 top-4.5 left-1/2 absolute bg-primary rounded-full w-6 h-0.5 content-[''] group-[.menu-active]:rotate-45 transition-all -translate-x-1/2 duration-200 ease-in-out"></span>
+          <span class="bottom-4.5 group-[.menu-active]:bottom-5.5 left-1/2 absolute bg-primary rounded-full w-6 h-0.5 content-[''] group-[.menu-active]:-rotate-45 transition-all -translate-x-1/2 duration-200 ease-in-out"></span>
         </button>
       </div>
     </header>
     <main class="flex-auto">
-      

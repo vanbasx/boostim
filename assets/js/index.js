@@ -1,9 +1,32 @@
-// DOUBLE-CLICK-ZOOM-DISABLE
+//===================================BURGER=MENU=====================================================================================================================
+function menuInit() {
+  const button = document.querySelector("#burger-btn");
+  const overlay = document.querySelector("#header-menu-overlay");
+
+  button.addEventListener("click", () => {
+    document.documentElement.classList.toggle("menu-active");
+    document.documentElement.classList.toggle("group");
+  });
+
+  overlay.addEventListener("click", () => {
+    document.documentElement.classList.remove("menu-active");
+    document.documentElement.classList.remove("group");
+  });
+}
+menuInit();
+//==================================/BURGER=MENU=====================================================================================================================
+
+
+
+//==================================DOUBLE=CLICK=ZOOM=DISABLE=====================================================================================================================
 document.addEventListener('dblclick', function(event) {
   event.preventDefault();
 }, { passive: false });
+//=================================/DOUBLE=CLICK=ZOOM=DISABLE=====================================================================================================================
 
-// ACCORDION
+
+
+//==================================ACCORDION=====================================================================================================================
 function accordion() {
   const accordions = document.querySelectorAll('[data-accordion]');
 
@@ -30,8 +53,11 @@ function accordion() {
   });
 }
 accordion();
+//=================================/ACCORDION=====================================================================================================================
 
-// SWIPER-CASES
+
+
+//==================================SWIPER=CASES=====================================================================================================================
 const swiperCases = new Swiper('.swiper-cases', {
   loop: false,
   spaceBetween: 12,
@@ -52,8 +78,11 @@ const swiperCases = new Swiper('.swiper-cases', {
     }
 }
 });
+//=================================/SWIPER=CASES=====================================================================================================================
 
-// SWIPER-TESTIMONIALS
+
+
+//=================================SWIPER=TESTIMONIALS=====================================================================================================================
 const swiperTestimonials = new Swiper('.swiper-testimonials', {
   loop: false,
   spaceBetween: 12,
@@ -74,6 +103,7 @@ const swiperTestimonials = new Swiper('.swiper-testimonials', {
     prevEl: ".swiper-button-prev-testimonials",
   },
 });
+//================================/SWIPER=TESTIMONIALS=====================================================================================================================
 
 
 // HTML data-da="where(uniq class name),when(breakpoint),position(digi)"

@@ -66,7 +66,7 @@
   </div>
 </section>
 
-<section class="mb-24 max-[768px]:mb-4">
+<section id="agency" class="mb-24 max-[768px]:mb-4">
   <div class="container">
     <div class="flex max-[1024px]:flex-col justify-between items-center max-[1024px]:items-start gap-10 max-[1024px]:gap-4 max-[570px]:gap-6 max-[768px]:gap-7 mb-18 max-[1024px]:mb-12">
       <h2 class="max-[1024px]:max-w-full max-w-2xl max-[570px]:text-[32px] max-[1240px]:text-4xl max-[1240px]:text-balance max-[1024px]:text-pretty max-[1240px]:basis-1/2 title">
@@ -105,7 +105,7 @@
   </div>
 </section>
 
-<section class="mx-auto mb-31 max-[570px]:mb-15 px-4 max-w-[1408px]">
+<section id="case-study" class="mx-auto mb-31 max-[570px]:mb-15 px-4 max-w-[1408px]">
   <div class="bg-primary px-16 max-[1024px]:px-8 max-[1240px]:px-13 max-[430px]:px-4 max-[768px]:px-6 py-20 max-[1240px]:py-15 max-[570px]:py-10 rounded-[30px] overflow-hidden">
     <h3 class="mb-16 max-[1024px]:mb-12 max-[768px]:mb-7 text-white max-[430px]:text-[28px] max-[768px]:text-3xl max-[1240px]:text-4xl max-[570px]:text-left text-center max-[430px]:text-balance title">
       Real-world examples of how we have helped companies achieve their marketing objectives.
@@ -128,7 +128,7 @@
   </div>
 </section>
 
-<section class="mb-25 max-[570px]:mb-11">
+<section id="testimonials" class="mb-25 max-[570px]:mb-11">
   <div class="container">
     <div class="relative overflow-hidden swiper-testimonials">
       <div class="swiper-wrapper">
@@ -184,7 +184,7 @@
   </div>
 </section>
 
-<section class="mx-auto mb-24 max-[570px]:mb-15 px-4 max-w-[1408px]">
+<section id="faq" class="mx-auto mb-24 max-[570px]:mb-15 px-4 max-w-[1408px]">
   <div class="flex max-[1024px]:flex-col justify-between items-stretch gap-16 max-[768px]:gap-12 bg-white p-16 max-[768px]:p-10 max-[1240px]:px-10 max-[570px]:px-4 max-[570px]:py-8 rounded-[30px]">
     <div class="basis-1/2">
       <div class="top-15 sticky max-w-[530px]">
@@ -279,7 +279,7 @@
   </div>
 </section>
 
-<section class="mb-32 max-[570px]:mb-15">
+<section id="resources" class="mb-32 max-[570px]:mb-15">
   <div class="container">
     <div class="flex max-[1024px]:flex-col justify-between items-center max-[1024px]:items-start gap-20 max-[1024px]:gap-7 mb-18 max-[570px]:mb-12">
       <h5 class="max-[570px]:text-[32px] max-[1240px]:text-4xl title basis-1/2">
