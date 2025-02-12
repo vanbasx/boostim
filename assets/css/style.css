@@ -605,11 +605,17 @@
   .left-1\/2 {
     left: calc(1/2 * 100%);
   }
+  .z-0 {
+    z-index: 0;
+  }
   .z-1 {
     z-index: 1;
   }
   .z-2 {
     z-index: 2;
+  }
+  .z-10 {
+    z-index: 10;
   }
   .z-50 {
     z-index: 50;
@@ -987,6 +993,9 @@
   .border-secondary {
     border-color: var(--color-secondary);
   }
+  .\!bg-primary {
+    background-color: var(--color-primary) !important;
+  }
   .bg-\[\#C7C7C7\] {
     background-color: #C7C7C7;
   }
@@ -1011,6 +1020,33 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\'\/assets\/img\/dark-background\.webp\'\)\] {
+    background-image: url('/assets/img/dark-background.webp');
+  }
+  .\!bg-contain {
+    background-size: contain !important;
+  }
+  .\!bg-cover {
+    background-size: cover !important;
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .\!bg-center {
+    background-position: center !important;
+  }
+  .\!bg-right {
+    background-position: right !important;
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .\!bg-no-repeat {
+    background-repeat: no-repeat !important;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
+  }
   .bg-repeat {
     background-repeat: repeat;
   }
@@ -1020,8 +1056,14 @@
   .stroke-white {
     stroke: var(--color-white);
   }
+  .object-contain {
+    object-fit: contain;
+  }
   .object-cover {
     object-fit: cover;
+  }
+  .object-fill {
+    object-fit: fill;
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
@@ -1230,6 +1272,10 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .brightness-50 {
+    --tw-brightness: brightness(50%);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
   .brightness-55 {
     --tw-brightness: brightness(55%);
