@@ -31,8 +31,11 @@
           <div id="header-menu-overlay" class="group-[.menu-active]:visible group-[.menu-active]:z-30 invisible top-0 left-0 z-[-1] fixed bg-primary opacity-0 group-[.menu-active]:opacity-50 w-full h-[100vh] transition-all duration-300"></div>
         </div>
         <div data-da=".menu, 1023, 2" class="flex items-center gap-2">
-          <a ontouchstart href="/contact" class="hover:bg-primary active:bg-primary px-8 py-3 border rounded-full font-bold hover:text-white active:text-white text-base leading-[140%] transition-colors duration-200 easy-out">
-            Get started
+          <a ontouchstart href="/contact" class="group/button inline-block hover:bg-primary active:bg-primary px-8 max-[768px]:px-6 py-3 border border-primary rounded-full overflow-hidden font-bold hover:text-white active:text-white text-base text-center leading-[140%] transition-colors duration-200 easy-out">
+            <div class="relative flex flex-col transition-transform group-hover/button:-translate-y-10 group-active/button:-translate-y-10 duration-300 ease-in-out">
+              <span>Get started</span>
+              <span class="top-0 left-0 absolute translate-y-10">Get started</span>
+            </div>
           </a>
           <a ontouchstart href="/contact" class="bg-primary hover:opacity-50 active:opacity-50 p-3 rounded-full transition-opacity duration-200 ease-out">
             <img src="<?php echo get_parent_theme_file_uri( 'assets/img/icons/ring.svg' ) ?>" alt="">

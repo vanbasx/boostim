@@ -11,9 +11,17 @@
         An award-winning SEO agency with disciplines in digital marketing, design, and website development. Focused on understanding you.
       </p>
       <div class="flex items-center gap-12 max-[1024px]:gap-8 mb-22 max-[1240px]:mb-12 max-[768px]:mb-10">
-        <a href="/contact" class="flex items-center gap-10 max-[1024px]:gap-2 bg-primary px-8 max-[1024px]:px-5 py-4 max-[1024px]:py-3 rounded-full max-[1024px]:text-sm">
-          <span class="font-bold text-white leading-[1.4]">Schedule Call</span>
-          <svg class="max-[1024px]:size-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <a ontouchstart href="/contact" class="group/button bg-primary px-8 max-[1024px]:px-5 py-4 max-[1024px]:py-3 rounded-full overflow-hidden max-[1024px]:text-sm">
+          <div class="relative transition-transform group-hover/button:-translate-y-10 group-active/button:-translate-y-10 duration-300 ease-in-out">
+            <div class="flex items-center gap-10 max-[1024px]:gap-2">
+              <span class="font-bold text-white leading-[1.4]">Schedule Call</span>
+              <svg class="max-[1024px]:size-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="top-0 left-0 absolute flex items-center gap-10 max-[1024px]:gap-2 translate-y-10">
+              <span class="font-bold text-white leading-[1.4]">Schedule Call</span>
+              <svg class="max-[1024px]:size-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
         </a>
         <a href="#case-study" class="font-bold text-primary max-[1024px]:text-sm underline">
           View Case Study
@@ -208,8 +216,11 @@
           As a leading digital marketing agency, we are dedicated to providing comprehensive educational resources and answering frequently asked questions to help our clients.
         </p>
         <div class="flex items-center gap-12 max-[768px]:gap-8">
-          <a ontouchstart href="/contact" class="hover:bg-primary active:bg-primary px-8 max-[768px]:px-6 py-4 max-[768px]:py-3 border rounded-full font-bold hover:text-white active:text-white text-base text-center leading-[140%] transition-colors duration-200 easy-out">
-            More Questions
+          <a ontouchstart href="/contact" class="group/button inline-block hover:bg-primary active:bg-primary px-8 max-[768px]:px-6 py-4 max-[768px]:py-3 border border-primary rounded-full overflow-hidden font-bold hover:text-white active:text-white text-base text-center leading-[140%] transition-colors duration-200 easy-out">
+            <div class="relative flex flex-col transition-transform group-hover/button:-translate-y-10 group-active/button:-translate-y-10 duration-300 ease-in-out">
+              <span>More Questions</span>
+              <span class="top-0 left-0 absolute translate-y-10">More Questions</span>
+            </div>
           </a>
           <a href="/contact" class="font-bold text-primary max-[1024px]:text-sm underline">
             Contanct Us
@@ -299,11 +310,14 @@
         Digital Marketing & SEO Services That Grow Traffic & Increase Revenue
       </h5>
       <div class="max-w-[500px] max-[1024px]:max-w-full max-[1240px]:max-w-[450px]">
-        <p class="mb-10 max-[570px]:text-pretty subtitle">
+        <p class="mb-8 max-[570px]:text-pretty subtitle">
           We are the top digital marketing agency for  branding corp. We offer a full range of services to help clients improve their search engine rankings and drive more traffic to their websites.
         </p>
-        <a ontouchstart href="/contact" class="hover:bg-primary active:bg-primary px-8 max-[768px]:px-6 py-4 max-[768px]:py-3 border rounded-full font-bold hover:text-white active:text-white text-base text-center leading-[140%] transition-colors duration-200 easy-out">
-          Book a call
+        <a ontouchstart href="/contact" class="group/button inline-block hover:bg-primary active:bg-primary px-8 max-[768px]:px-6 py-4 max-[768px]:py-3 border border-primary rounded-full overflow-hidden font-bold hover:text-white active:text-white text-base text-center leading-[140%] transition-colors duration-200 easy-out">
+          <div class="relative flex flex-col transition-transform group-hover/button:-translate-y-10 group-active/button:-translate-y-10 duration-300 ease-in-out">
+            <span>Book a free call</span>
+            <span class="top-0 left-0 absolute translate-y-10">Book a free call</span>
+          </div>
         </a>
       </div>
     </div>
@@ -331,9 +345,17 @@
     <h6 class="font-bold text-[80px] text-white max-[570px]:text-4xl max-[768px]:text-5xl max-[1024px]:text-6xl max-[1240px]:text-7xl max-[570px]:text-center">
       Ready to work with us?
     </h6>
-    <a href="/contact" class="flex items-center gap-10 max-[1024px]:gap-2 bg-white px-8 max-[1024px]:px-5 py-4 max-[1024px]:py-3 rounded-full max-[1024px]:text-sm shrink-0">
-      <span class="font-bold text-primary leading-[1.4]">Get Started</span>
-      <svg class="max-[1024px]:size-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" class="stroke-primary" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5L19 12L12 19" class="stroke-primary" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <a ontouchstart href="/contact" class="group/button bg-white px-8 max-[1024px]:px-5 py-4 max-[1024px]:py-3 rounded-full overflow-hidden max-[1024px]:text-sm shrink-0">
+      <div class="relative transition-transform group-hover/button:-translate-y-10 group-active/button:-translate-y-10 duration-300 ease-in-out">
+        <div class="flex items-center gap-10 max-[1024px]:gap-2">
+          <span class="font-bold text-primary leading-[1.4]">Get Started</span>
+          <svg class="max-[1024px]:size-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" class="stroke-primary" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5L19 12L12 19" class="stroke-primary" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="top-0 left-0 absolute flex items-center gap-10 max-[1024px]:gap-2 translate-y-10">
+          <span class="font-bold text-primary leading-[1.4]">Get Started</span>
+          <svg class="max-[1024px]:size-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" class="stroke-primary" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5L19 12L12 19" class="stroke-primary" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
     </a>
   </div>
 </div>

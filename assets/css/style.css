@@ -605,9 +605,6 @@
   .left-1\/2 {
     left: calc(1/2 * 100%);
   }
-  .z-0 {
-    z-index: 0;
-  }
   .z-1 {
     z-index: 1;
   }
@@ -869,6 +866,42 @@
     --tw-translate-y: calc(calc(1/2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+  .-translate-y-2 {
+    --tw-translate-y: calc(var(--spacing) * -2);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-y-9 {
+    --tw-translate-y: calc(var(--spacing) * -9);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-y-10 {
+    --tw-translate-y: calc(var(--spacing) * -10);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-2 {
+    --tw-translate-y: calc(var(--spacing) * 2);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-5 {
+    --tw-translate-y: calc(var(--spacing) * 5);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-7 {
+    --tw-translate-y: calc(var(--spacing) * 7);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-9 {
+    --tw-translate-y: calc(var(--spacing) * 9);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-10 {
+    --tw-translate-y: calc(var(--spacing) * 10);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-full {
+    --tw-translate-y: 100%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .rotate-90 {
     rotate: 90deg;
   }
@@ -1020,17 +1053,11 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\'\/assets\/img\/dark-background\.webp\'\)\] {
-    background-image: url('/assets/img/dark-background.webp');
-  }
   .\!bg-contain {
     background-size: contain !important;
   }
   .\!bg-cover {
     background-size: cover !important;
-  }
-  .bg-cover {
-    background-size: cover;
   }
   .\!bg-center {
     background-position: center !important;
@@ -1038,14 +1065,8 @@
   .\!bg-right {
     background-position: right !important;
   }
-  .bg-center {
-    background-position: center;
-  }
   .\!bg-no-repeat {
     background-repeat: no-repeat !important;
-  }
-  .bg-no-repeat {
-    background-repeat: no-repeat;
   }
   .bg-repeat {
     background-repeat: repeat;
@@ -1061,9 +1082,6 @@
   }
   .object-cover {
     object-fit: cover;
-  }
-  .object-fill {
-    object-fit: fill;
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
@@ -1309,6 +1327,10 @@
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
+  .duration-100 {
+    --tw-duration: 100ms;
+    transition-duration: 100ms;
+  }
   .duration-200 {
     --tw-duration: 200ms;
     transition-duration: 200ms;
@@ -1316,6 +1338,14 @@
   .duration-300 {
     --tw-duration: 300ms;
     transition-duration: 300ms;
+  }
+  .duration-400 {
+    --tw-duration: 400ms;
+    transition-duration: 400ms;
+  }
+  .ease-in {
+    --tw-ease: var(--ease-in);
+    transition-timing-function: var(--ease-in);
   }
   .ease-in-out {
     --tw-ease: var(--ease-in-out);
@@ -1332,6 +1362,35 @@
   .content-\[\'\'\] {
     --tw-content: '';
     content: var(--tw-content);
+  }
+  .group-hover\:-translate-y-10 {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        --tw-translate-y: calc(var(--spacing) * -10);
+        translate: var(--tw-translate-x) var(--tw-translate-y);
+      }
+    }
+  }
+  .group-hover\:translate-none {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        translate: none;
+      }
+    }
+  }
+  .group-hover\/button\:-translate-y-10 {
+    &:is(:where(.group\/button):hover *) {
+      @media (hover: hover) {
+        --tw-translate-y: calc(var(--spacing) * -10);
+        translate: var(--tw-translate-x) var(--tw-translate-y);
+      }
+    }
+  }
+  .group-active\/button\:-translate-y-10 {
+    &:is(:where(.group\/button):active *) {
+      --tw-translate-y: calc(var(--spacing) * -10);
+      translate: var(--tw-translate-x) var(--tw-translate-y);
+    }
   }
   .group-\[\.accordion\]\:rotate-none {
     &:is(:where(.group):is(.accordion) *) {
