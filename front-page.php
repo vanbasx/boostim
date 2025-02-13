@@ -23,7 +23,7 @@
             </div>
           </div>
         </a>
-        <a href="#case-study" class="font-bold text-primary max-[1024px]:text-sm underline">
+        <a ontouchstart href="#case-study" class="hover:opacity-75 active:opacity-75 font-bold text-primary max-[1024px]:text-sm underline transition-opacity duration-200 ease-in-out">
           View Case Study
         </a>
       </div>
@@ -222,7 +222,7 @@
               <span class="top-0 left-0 absolute translate-y-10">More Questions</span>
             </div>
           </a>
-          <a href="/contact" class="font-bold text-primary max-[1024px]:text-sm underline">
+          <a ontouchstart href="/contact" class="hover:opacity-75 active:opacity-75 font-bold text-primary max-[1024px]:text-sm underline transition-opacity duration-200 ease-in-out">
             Contanct Us
           </a>
         </div>
