@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
-404
+<div class="container">
+  404 page
+</div>
 
 <?php get_footer(); ?>

@@ -10,6 +10,8 @@ remove_action( 'wp_head', 'feed_links' );
 remove_action( 'wp_head', 'rsd_link' );
 remove_action( 'wp_head', 'wlwmanifest_link' );
 remove_action( 'wp_head', 'index_rel_link' );
+remove_action( 'wp_enqueue_scripts', 'wp_enqueue_global_styles' );
+remove_action( 'wp_enqueue_scripts', 'wp_enqueue_classic_theme_styles' );
 
 
 // THEME SUPPORT
@@ -18,6 +20,8 @@ function boostim_theme_support() {
   add_theme_support( 'title-tag' );
   add_theme_support( 'post-thumbnails' );
   add_theme_support( 'html5' );
+  add_theme_support( 'editor-styles' );
+  add_editor_style( get_parent_theme_file_uri( 'assets/css/style.css' ) );
 
 }
 add_action( 'after_setup_theme', 'boostim_theme_support' );
@@ -66,7 +70,7 @@ add_action( 'wp_head', 'boostim_enqueue_fonts', 5 );
 // CPT REGISTER
 function boostim_custom_post_type() {
 
-  register_post_type('boostim_case',
+  register_post_type('case',
 		array(
 			'labels'      => array(
 				'name'            => __( 'Case study', 'boostim' ),
@@ -87,7 +91,7 @@ function boostim_custom_post_type() {
 		)
 	);
 
-  register_post_type('boostim_resource',
+  register_post_type('resource',
 		array(
 			'labels'      => array(
 				'name'            => __( 'Resources', 'boostim' ),
@@ -110,3 +114,13 @@ function boostim_custom_post_type() {
 
 }
 add_action( 'init', 'boostim_custom_post_type' );
+
+
+// REGISTER BLOCKS
+function boostim_register_blocks() {
+
+	register_block_type( __DIR__ . '/blocks/build/block-title' );
+  register_block_type( __DIR__ . '/blocks/build/block-paragraph' );
+
+}
+add_action( 'init', 'boostim_register_blocks' );

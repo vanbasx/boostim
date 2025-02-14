@@ -135,7 +135,7 @@
       <div class="swiper-wrapper">
         <?php
         $cases = new WP_Query(array(
-          'post_type'      => 'boostim_case',
+          'post_type'      => 'case',
           'posts_per_page' => -1
         ));
 
@@ -324,7 +324,7 @@
     <div class="gap-6 max-[570px]:gap-4 grid grid-cols-3 max-[1024px]:grid-cols-2 max-[768px]:grid-cols-1">
       <?php
       $resources = new WP_Query(array(
-        'post_type'      => 'boostim_resource',
+        'post_type'      => 'resource',
         'posts_per_page' => 3
       ));
 
