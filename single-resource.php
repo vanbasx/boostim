@@ -16,7 +16,7 @@
 
 <section class="mb-32 max-[570px]:mb-15">
   <div class="mx-auto px-4 max-[1024px]:px-12 max-[628px]:px-4 max-w-[862px]">
-    <?php the_content(); ?>
+    <?php the_content(); ?>123
   </div>
 </section>
 

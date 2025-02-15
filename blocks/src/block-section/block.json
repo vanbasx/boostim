@@ -1,9 +1,9 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "create-block/block-title",
+	"name": "create-block/block-section",
 	"version": "0.1.0",
-	"title": "Block Title",
+	"title": "Block Section",
 	"category": "widgets",
 	"icon": "smiley",
 	"description": "Example block scaffolded with Create Block tool.",
@@ -12,10 +12,9 @@
 		"html": false
 	},
 	"attributes": {
-    "skyColor": { "type": "string" },
-    "grassColor": { "type": "string" }
+    "headingText": { "type": "string" },
+    "paragraphText": { "type": "string" }
   },
-	"textdomain": "block-title",
 	"editorScript": "file:./index.js",
   "render": "file:./render.php",
   "viewScript": "file:./frontend.js"

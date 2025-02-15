@@ -119,7 +119,7 @@ add_action( 'init', 'boostim_custom_post_type' );
 // REGISTER BLOCKS
 function boostim_register_blocks() {
 
-	register_block_type( __DIR__ . '/blocks/build/block-title' );
+	register_block_type( __DIR__ . '/blocks/build/block-section' );
   register_block_type( __DIR__ . '/blocks/build/block-paragraph' );
 
 }
